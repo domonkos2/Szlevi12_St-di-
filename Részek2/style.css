@@ -1,0 +1,28 @@
+.h2 {
+    position: relative;
+    top: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(90deg, red,  rgb(240, 110, 110), white);
+    background-size: 15%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background-image: url('Képek/HelluvaBossHátérkép.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
